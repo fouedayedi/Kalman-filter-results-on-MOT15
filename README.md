@@ -18,7 +18,7 @@ The MOT15 benchmark dataset provides a challenging testbed for evaluating multi-
 ## Implementation
 The `ObjectTracker` class processes frames from the MOT15 dataset, utilizing ground truth data for initial object localization and employing the Kalman filter for predictive tracking. Each tracked object is assigned a unique ID and enclosed within a bounding box.
 
-The evaluation is performed by `TrackerEvaluator`, which computes metrics such as MOTA (Multiple Object Tracking Accuracy), MOTP (Multiple Object Tracking Precision), and others to quantitatively assess the tracking accuracy.
+The evaluation is performed by `TrackerEvaluator`, which computes metrics such as MOTA (Multiple Object Tracking Accuracy), HOTA, and others to quantitatively assess the tracking accuracy.
 
 ## Results
 The results of the tracking are visualized with bounding boxes and unique IDs for each object, and the tracking trajectories are plotted for each detected person. The evaluation metrics provide insights into the performance of the tracking algorithm.
