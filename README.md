@@ -3,6 +3,8 @@
 ## Overview
 This project implements a multi-object tracking system using Kalman filters, evaluated using the MOT15 benchmark dataset. The system tracks multiple objects across video frames and assesses the performance using precision tracking metrics.
 
+![Alt text](https://github.com/fouedayedi/Kalman-filter-results-on-MOT15/blob/main/ETH-Sunnyday-results.gif)
+
 ## Repository Contents
 - `KalmanFilter.py`: Implements the Kalman Filter for state estimation.
 - `MOT.py`: Manages the tracking of multiple objects.
